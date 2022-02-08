@@ -119,15 +119,15 @@ public class RepositorioSQLiteImpl extends SQLiteOpenHelper implements Repositor
                 + ContratoPregunta.EntradaPregunta.FOTO + " TEXT NOT NULL,"
                 + "UNIQUE (" + ContratoPregunta.EntradaPregunta.NOMBRE + "))");
 
-        Pregunta pregunta1 = new Pregunta("Seat", "seat.jpeg");
+        Pregunta pregunta1 = new Pregunta("Seat", "raw/seat.jpeg");
         this.save(pregunta1, db);
-        Pregunta pregunta2 = new Pregunta("Dacia", "dacia.jpeg");
+        Pregunta pregunta2 = new Pregunta("Dacia", "raw/dacia.jpeg");
         this.save(pregunta2, db);
-        Pregunta pregunta3 = new Pregunta("Mercedes", "mercedes.jpeg");
+        Pregunta pregunta3 = new Pregunta("Mercedes", "raw/mercedes.jpeg");
         this.save(pregunta3, db);
-        Pregunta pregunta4 = new Pregunta("BMW", "bmw.jpeg");
+        Pregunta pregunta4 = new Pregunta("BMW", "raw/bmw.jpeg");
         this.save(pregunta4, db);
-        Pregunta pregunta5 = new Pregunta("Audi", "audi.jpeg");
+        Pregunta pregunta5 = new Pregunta("Audi", "raw/audi.jpeg");
         this.save(pregunta5, db);
 
     }
